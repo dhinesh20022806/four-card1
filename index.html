@@ -6,175 +6,48 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Clipboard landing page</title>
-  <!-- bootstrap v-5  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <!-- my custom css   -->
+  <title>Frontend Mentor | Four card feature section</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+ 
 </head>
 <body>
   
-  
-  <div class="header">
-    <div class="container  py-3">
-      <div class="text-center  rounded-3">
-        <img src="./images/logo.svg" class="bi mt-4 mb-3" alt="">
-        <h1 >A history of everything you copy</h1>
-        <p class="col-lg-8 mx-auto fs-5 text-muted">
-          Clipboard allows you to track and organize everything you 
-            copy. Instantly access your clipboard on all your devices.
-        </p>
-        <div class="d-flex flex-lg-row flex-column gap-lg-2 gap-3 justify-content-center my-5">
-          <button class="btn btn-ios btn-lg px-4 rounded-pill" type="button">
-            Download for iOS
-          </button>
-          <button class="btn btn-mac btn-lg px-4 rounded-pill" type="button">
-            Download for Mac
-          </button>
-        </div>
+  <div class="head">
+    <h1 class="light">Reliable, efficient delivery</h1>
+  <h1 class="bold">Powered by Technology</h1>
+
+  <p class="para">Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</p>
+  </div>
+
+  <div class="card-container">
+    <div class="card a">
+      <h4 class="card-heading">Supervisor</h4>
+      <p class="card-para">Monitors activity to identify project roadblocks</p>
+      <img class="card-img" src="./images/icon-supervisor.svg" alt="">
+     </div>
+    
+      <div class="card b">
+        <h4 class="card-heading">Team Builder</h4>
+      <p class="card-para">Scans our talent network to create the optimal team for your project</p>
+      <img class="card-img" src="./images/icon-team-builder.svg" alt="">
+    
       </div>
-    </div>
-  </div>
-
-  <!-- -->
-  <main class=" mb-5 py-5 container text-center">
-    <h1>Keep track of your snippets</h1>
-    <p class="lead text-muted col-lg-8 mx-auto fs-5">Clipboard instantly stores any item you copy in the cloud, 
-      meaning you can access your snippets immediately on all your 
-      devices. Our Mac and iOS apps will help you organize everything.</p>
-  </main>
-<!---->
-
-<section class="my-5 row gap-5 text-center mx-auto">
-  <div class="img col-lg-6 col-md-12 col-sm-12 ">
-    <img class="computer img-fluid" src="./images/image-computer.png" alt="">
-  </div>
-  <div class="col-lg-3  d-flex flex-column justify-content-between gap-5">
-   <div>
-    <h3>Quick Search</h3>
-    <p>Easily search your snippets by content, category, web address, application, and more.</p>
-   </div>
-    <div>
-      <h3>iCloud Sync</h3>
-    <p>Instantly saves and syncs snippets across all your devices.</p>
-    </div>
-    <div>
-      <h3>Complete History</h3>
-    <p>Retrieve any snippets from the first moment you started using the app.</p>
-    </div>
-  </div>
-</section>
-<!---->
-<div class="px-4 pt-5 my-5 text-center ">
-  <h1 >Access Clipboard anywhere</h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4"> Whether you’re on the go, or at your computer, you can access all your Clipboard 
-      snippets in a few simple clicks.</p>
-
-  </div>
-  <div>
-    <div class="container px-5">
-    <img src="./images/image-devices.png" class="img-fluid  my-4" alt="Example image"  width="700" height="500">
-    </div>
-  </div>
-</div>
-<!----->
-
-<div class="container text-center">
-  <h1 >Supercharge your workflow</h1>
-  <p class="col-lg-8 mx-auto lead">
-    We’ve got the tools to boost your productivity.
-  </p>
-</div>
-<!--  -->
-
-<div class="container py-5">
-  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
-    <div class="feature col">
-      <div class="feature-icon d-flex  justify-content-center  mb-3">
-        <img src="./images/icon-blacklist.svg" alt="">
-      </div>
-      <h3>Create blacklists</h3>
-      <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-    </div>
-    <div class="feature col">
-      <div class="feature-icon d-flex  justify-content-center  mb-3">
-        <img src="./images/icon-text.svg" alt="">
-      </div>
-      <h3>Plain text snippets</h3>
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
-      
-    </div>
-    <div class="feature col">
-      <div class="feature-icon d-flex  justify-content-center  mb-3">
-        <img src="./images/icon-preview.svg" alt="">
-      </div>
-      <h3>Sneak preview</h3>
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-    </div>
-  </div>
-</div>
-  <!--  -->
-  <section class="images container my-5 d-flex justify-content-center align-content-center">
-    <div class="d-flex flex-lg-row flex-column gap-5  images">
-      <img class=" image " src="./images/logo-google.png" height="40px" alt="">
-      <img class=" image " src="./images/logo-ibm.png" height="40px" alt="">
-      <img class=" image " src="./images/logo-microsoft.png"  height="40px" alt="">
-      <img class=" image " src="./images/logo-hp.png" height="40px" alt="">
-      <img class=" image " src="./images/logo-vector-graphics.png" height="40px" alt="">
-    </div>
-  </section>
-  <!--  -->
-  <div class="container py-5">
-    <div class="text-center  rounded-3">
-      <h1 >Clipboard for iOS and Mac OS</h1>
-      <p class="col-lg-8 mx-auto mb-5 fs-5 text-muted">
-        Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-        and you’re ready to start adding to your clipboard.
+     <div class="card c"><h4 class="card-heading"> Karma</h4>
+      <p class="card-para">Regularly evaluates our talent to ensure quality
       </p>
-      <div class="  d-flex flex-lg-row flex-column gap-lg-2 gap-3 justify-content-center mb-5">
-        <button class=" btn btn-ios btn-lg  px-4 rounded-pill" type="button">
-          Download for iOS
-        </button>
-        <button class="btn btn-mac btn-lg px-4 rounded-pill" type="button">
-          Download for Mac
-        </button>
+    <img class="card-img" src="./images/icon-karma.svg" alt="">
+    </div>
+      
+      <div class="card d">
+        <h4 class="card-heading">Calculator</h4>
+      <p class="card-para">Uses data from past projects to provide better delivery estimates</p>
+      <img class="card-img" src="./images/icon-calculator.svg" alt="">
       </div>
-    </div>
   </div>
 
-  <!-- footer  -->
-  <footer class="footer ">
- <div class="d-flex container flex-lg-row flex-column gap-4 justify-content-between align-items-center py-3 mt-4">
   
-    <div class="col-md-4 d-flex align-items-center justify-content-center">
-      <span class="mb-3 mb-md-0  text-body-secondary"><img src="./images/logo.svg" height="50px" alt=""></span>
-    </div>
-    <div class="d-flex flex-lg-row text-lg-start text-center flex-column justify-content-lg-around align-content-center gap-lg-5 ">
-      <ul class=" list-unstyled ">
-        <li class=" lis mb-4 "> FAQs</li>
-        <li>Contact Us</li>
-        </ul>
-        <ul class=" list-unstyled  ">
-          <li class="lis mb-4 ">Privacy Policy</li>
-        <li>Press Kit</li>
-        </ul>
-        <ul class=" list-unstyled  mb-0">
-        <li class="mb-5">Install Guide</li>
-      </ul> 
-    </div>
-
-    <ul class="nav col-md-4 mb-0 justify-content-center justify-content-lg-end align-items-center list-unstyled pb-lg-0 pb-5 d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/icon-facebook.svg" alt=""></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/icon-twitter.svg" alt=""></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./images/icon-instagram.svg" alt=""></a></li>
-    </ul>
   
-  </div>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
